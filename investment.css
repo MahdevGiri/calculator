@@ -1,0 +1,26 @@
+/* Investment Style*/
+
+.investment-form{
+    border: 2px lightgrey solid;
+    background-color: lightgrey;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 2%;
+  }
+  
+  .investment-form * {
+    color: #000851;
+  }
+
+  .investment-form button {
+    color: white;
+  }
+
+  @media screen and (min-width: 576px) {
+    .investment-form {
+        max-width: 500px;
+        margin-left: 25%;
+        margin-top: 2%;
+    
+    }
+  }

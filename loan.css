@@ -1,0 +1,33 @@
+/* Loan Style*/
+
+.loan-form{
+    border: 2px lightgrey solid;
+    background-color: lightgrey;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 2%;
+  }
+  
+  .loan-form * {
+    color: #000851;
+  }
+
+  .loan-form button {
+    color: white;
+  }
+
+  .summary-card {
+    color: darkred;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  @media screen and (min-width: 576px) {
+    .loan-form {
+        max-width: 500px;
+        margin-left: 25%;
+        margin-top: 2%;
+    
+    }
+  }

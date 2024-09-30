@@ -1,0 +1,35 @@
+.my-container {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;    /*to align on main axis ie column in this case. here line 6 is required to see vertical alignment.*/
+    align-items: center;        /*to align on cross axis ie row in this case*/    
+}
+
+.button1 button {
+    min-width: 200px;
+    width: 300px;
+}
+
+.button2 button {
+    min-width: 200px;
+    width: 300px;
+}
+
+@media screen and (max-width: 576px) {
+    .button1 button {
+        width: 200px;
+    }
+    
+    .button2 button {
+        width: 200px;
+    }
+  }
+
+
+  
+
+
+
+
